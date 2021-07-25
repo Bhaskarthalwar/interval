@@ -3,7 +3,7 @@ package com.test.vimond.model;
 import java.util.Objects;
 
 /**
- * Interval class defines the an interval which has a starting number and an ending number
+ * Interval class defines an interval which has a starting number and an ending number
  * This class forms the basis for set of inclusive and exclusive intervals
  */
 public abstract class Interval implements Comparable<Interval> {
