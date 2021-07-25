@@ -61,9 +61,9 @@ public class Main {
         exclusiveSet.removeAll(exclusiveSet);
     }
 
-    // This is a test method used to for testing out the inclusive and exclusive intervals
+    // This is a test method used for testing out the inclusive and exclusive intervals
     // one can directly call this method by passing the set of inclusive and exclusive data and expect the result
-    // printed on the console
+    // to be printed on the console
     public static void testManager(Set<Interval> inclusiveSet, Set<Interval> exclusiveSet) {
 
         Interval[] inclusiveArray = new Interval[inclusiveSet.size()];
@@ -77,8 +77,6 @@ public class Main {
         Set<Interval> resultantInterval = manager.formResultantInterval();
 
         System.out.println(resultantInterval);
-        System.out.println("==================================================================================");
-
     }
 
 }
