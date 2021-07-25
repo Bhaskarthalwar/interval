@@ -9,8 +9,7 @@ import java.util.Set;
 import java.util.TreeSet;
 
 /**
- * This is a test class used to test out the scenarios used for testing the
- * inclusive and exclusive intervals
+ * This is a test class used for testing the inclusive and exclusive intervals
  *
  */
 
