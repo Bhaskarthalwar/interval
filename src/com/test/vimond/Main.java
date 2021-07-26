@@ -23,7 +23,7 @@ public class Main {
         prepareInput();
     }
 
-    // some of the inputdata and expected output given in the test
+    // some of the input data and expected output given in the test
     public static void prepareInput() {
 
         //Test 1

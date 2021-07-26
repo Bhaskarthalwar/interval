@@ -101,6 +101,7 @@ public class IntervalManagerImpl implements IntervalManager {
     public Set<Interval> formResultantInterval() {
         final Set<Interval> resultantInterval = new TreeSet<>();
 
+        //check if the size of exclusive interval is empty if so then return the inclusive internal set which is the result
         if (exclusiveIntervalSet.size() <= 0)
             return inclusiveIntervalSet;
 
