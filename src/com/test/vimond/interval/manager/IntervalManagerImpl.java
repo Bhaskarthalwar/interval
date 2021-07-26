@@ -117,6 +117,7 @@ public class IntervalManagerImpl implements IntervalManager {
                     Interval secondRange = IntervalFactory.createAnInterval(exclusive.getEnd() + 1, inclusive.getEnd());
                     resultantInterval.add(firstRange);
                     resultantInterval.add(secondRange);
+                    exclusiveIntervalSet.remove(exclusive);
                 }
 
                 // case - when one in-point and one ex-point results in one resultant point then remove the
