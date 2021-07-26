@@ -110,7 +110,8 @@ public class IntervalManagerImpl implements IntervalManager {
 
                 // case - when one in-point and one ex-point results in two resultant points
                 // since the bigger range is for the inclusive than the exclusive and inclusive end is greater than
-                // exclusive end and inclusive overlaps with exclusive
+                // exclusive end and inclusive overlaps with exclusive also once the range is generated the exclusive
+                // is not required any more as its end falls below the inclusive end and hence can be removed
                 // example I(1,10) E(3,8) = (1,2)(9,10)
 
                 if (intervalValidator.isOverlappedExtensionForInclusiveInterval(inclusive, exclusive)) {
